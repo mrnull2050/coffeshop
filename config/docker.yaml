@@ -1,0 +1,9 @@
+service:
+  port:5010
+  runMod:debug
+postgres:
+  name:coffe_docker
+  users:postgres
+  port:5432
+  password:postgres
+  host:localhost
